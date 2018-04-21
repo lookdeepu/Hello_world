@@ -15,6 +15,14 @@ Click me to display Date and Time.</button>
 <button type="button" onclick='document.getElementById("demo").innerHTML = "Hello JavaScript!"'>Click Me!</button>
   
 <p id="demo"></p>
+ 
+ var person = prompt("Please enter your name", "Harry Potter");
+
+if (person == null || person == "") {
+    txt = "User cancelled the prompt.";
+} else {
+    txt = "Hello " + person + "! How are you today?";
+}
 
 </body>
 </html> 
